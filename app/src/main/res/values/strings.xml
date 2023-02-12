@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tarea_intent</string>
+    <string name="app_title">Reflexiones</string>
+    <string name="add_info_text">Agregar info</string>
+    <string name="see_random_text">Ver aleatorea</string>
+    <string name="see_text">Ver</string>
+    <string name="reflexion_day_title">Reflexion del dia</string>
+    <string name="random_reflexion_title">Reflexion aleatoria</string>
+    <string name="image_descriptor_reflexion_text">Reflexion imagen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gender_label">Genero:</string>
+    <string name="name_label">Nombre:</string>
+
+
+    <string name="share_message">Share image in...</string>
+    <string name="cancel_alert">Ok</string>
+    <string name="info_emtpy_user">Inserte un nombre y genero primero.</string>
+    <string name="image_shared_name">superacionImage</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_size_title">30sp</dimen>
+    <dimen name="btn_margin_horizontal">15dp</dimen>
+    <dimen name="img_margin_horizontal">20dp</dimen>
+    <dimen name="btn_margin_bottom">10dp</dimen>
+    <dimen name="btn_margin_image_view">7dp</dimen>
+    <dimen name="text_default_size">25sp</dimen>
+    <dimen name="txt_margin_bottom">10dp</dimen>
+    <dimen name="txt_padding_start">12dp</dimen>
+</resources>

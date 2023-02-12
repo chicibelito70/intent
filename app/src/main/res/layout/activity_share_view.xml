@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ShareViewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/head_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/teal_700"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="Reflexion"
+                    android:textColor="@color/white"
+                    android:textSize="35sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/info_fragment_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head_layout"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/info_fragment_space"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_shareable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Reflexion de la imagen"
+                    android:layout_marginTop="@dimen/btn_margin_image_view"
+                    android:layout_marginHorizontal="@dimen/img_margin_horizontal"
+                    android:minHeight="150dp"
+                    android:maxHeight="300dp"/>
+
+                <Button
+                    android:id="@+id/btn_share_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginTop="@dimen/btn_margin_bottom"
+                    android:layout_marginHorizontal="@dimen/btn_margin_horizontal"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
